@@ -2,18 +2,24 @@ body {
   box-sizing: border-box;
   margin: 0;
   direction: rtl;
+  /* قم بتحويل اتجاه الكتابة من اليسار لليمين */
   font-family: 'Cairo', sans-serif;
 }
 
 nav {
-  background-color: #53a1eb;
+  /* #53a1eb أضف خلفية بلون  */
+  /* باستخدام خاصية background-color */
   display: flex;
   justify-content: space-between;
 }
 
 .header-img {
-  width: 10%;
-  padding: 10px;
+  /* أعطي الصورة عرض بقيمة */
+  /* 10% */
+ 
+  /* أعطي حاشية داخلية بقيمة */
+  /* 10px */
+  /* من جميع الاتجاهات */
 }
 
 .nav-list {
@@ -23,48 +29,62 @@ nav {
 .nav-item {
   list-style: none;
   padding: 10px;
-  color: white;
 }
+
 .nav-item a {
   text-decoration: none;
-  color: currentColor;
+  /* غيّر لون الخط للون الأبيض */
 }
 
 .main-section {
   width: 80%;
-  max-width: 1000px;
   margin: auto;
-  text-align: center;
+
+  /* أعطي حد أعلى لعرض القسم بقيمة  */
+  /* 1000px */
+  /* باستخدام خاصية  */
+  /* max-width */
+
+  /* قم بتوسيط النصوص في المنتصف */
 }
+
 .main-section h1 {
-  color: #53a1eb;
+    /* #53a1eb قم بتلوين النص باللون التالي  */
 }
 
 .main-img {
   width: 100%;
-  height: 100%;
+  /* قم بتحديد قيمة الارتفاع للصورة لتكون */
+  /* 100% */
 }
+
 footer {
   background-color: #53a1eb;
   padding: 10px;
   text-align: center;
   color: white;
 }
+
 main,
 section {
-  width: 90%;
+    /* أعطي عرض بقيمة */
+  /* 90% */
   margin: 0 auto;
 }
+
 section h3 {
   background-color: #e2e9f0;
   color: #53a1eb;
-  padding: 10px 0;
+  /* قم بإضافة حاشية داخلية من الأعلى والأسفل بقيمة */
+  /* 10px */
 }
+
 section h2 {
   text-align: center;
-  background-color: #e2e9f0;
+  /* #e2e9f0 أضف خلفية بلون  */
   color: #53a1eb;
 }
+
 section p {
   text-align: justify;
   line-height: 30px;
