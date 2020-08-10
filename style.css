@@ -32,6 +32,9 @@ nav {
   margin: auto;
   text-align: center;
 }
+.main-section h1 {
+  color: #53a1eb;
+}
 
 .main-img {
   width: 100%;
