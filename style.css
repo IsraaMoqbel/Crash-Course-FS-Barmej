@@ -25,6 +25,10 @@ nav {
   padding: 10px;
   color: white;
 }
+.nav-item a {
+  text-decoration: none;
+  color: currentColor;
+}
 
 .main-section {
   width: 80%;
@@ -59,7 +63,6 @@ section h3 {
 section h2 {
   text-align: center;
   background-color: #e2e9f0;
-  font-size: 2rem;
   color: #53a1eb;
 }
 section p {
