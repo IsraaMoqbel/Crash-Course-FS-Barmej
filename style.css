@@ -1,40 +1,65 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    direction: rtl;
+  box-sizing: border-box;
+  margin: 0;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
 }
 
 nav {
-    background-color: #53a1eb;
-    display: flex;
-    justify-content: space-between;
+  background-color: #53a1eb;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header-img {
-    width: 10%;
-    padding: 10px;
+  width: 10%;
+  padding: 10px;
 }
 
 .nav-list {
-    display: flex;
+  display: flex;
 }
 
 .nav-item {
-    list-style: none;
-    padding: 10px;
-    color: white;
+  list-style: none;
+  padding: 10px;
+  color: white;
 }
 
 .main-section {
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
-    text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
 }
 
-
 .main-img {
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
+}
+footer {
+  background-color: #53a1eb;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+main,
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+section h3 {
+  background-color: #e2e9f0;
+  color: #53a1eb;
+  padding: 10px 0;
+}
+section h2 {
+  text-align: center;
+  background-color: #e2e9f0;
+  font-size: 2rem;
+  color: #53a1eb;
+}
+section p {
+  text-align: justify;
+  line-height: 30px;
 }
